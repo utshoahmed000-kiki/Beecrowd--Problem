@@ -1,5 +1,3 @@
-import kotlin.time.TimeSource
-
 class Student(var name:String,var roll:Int, var marks:Double) {
     fun display(){
         println("Name : $name")
@@ -9,7 +7,6 @@ class Student(var name:String,var roll:Int, var marks:Double) {
 }
 
 fun main (){
-
 
     print("Enter the name: ")
     val name = readLine()!!.toString()
